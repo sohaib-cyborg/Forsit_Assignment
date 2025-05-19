@@ -1,3 +1,4 @@
+import utils.session
 from fastapi import FastAPI
 from core.config import settings
 from db.session import engine 
